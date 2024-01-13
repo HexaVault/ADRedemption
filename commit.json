@@ -1,1 +1,1 @@
-{"sha":"56ec262c8c5985934d1377e71d412b5bc1d38766","message":"Set default times back to Decimal.pow10(Number.MAX_VALUE)","author":"zerver"}
+{"sha":"b248c70e76480665490f9af5b1127637aca843b5","message":"fix Decimal.toString breaking if mantissa is an integer","author":"zerver"}
