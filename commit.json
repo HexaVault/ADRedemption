@@ -1,1 +1,1 @@
-{"sha":"b248c70e76480665490f9af5b1127637aca843b5","message":"fix Decimal.toString breaking if mantissa is an integer","author":"zerver"}
+{"sha":"1db1c8770a7112f8c67c1a18809408cf34760bc4","message":"make dmd 1 actually properly produce td 8","author":"zerver"}
