@@ -2930,7 +2930,7 @@ br {
 
 .c-multiversal-dim-description__accent {
   font-size: 3.5rem;
-  color: black;
+  color: #00c5ff;
 }
 
 .t-metro .c-multiversal-dim-description__accent,
@@ -10301,3 +10301,50 @@ input.o-automator-block-input {
 }
 
 /* #endregion Corrupt tab */
+
+/* #region Kohler tab*/
+
+.c-kohler-progressbar {
+  width: 50rem;
+  height: 3rem;
+  position: relative;
+  border: 0.1rem solid black;
+  border-radius: var(--var-border-radius, 0.4rem);
+  margin: auto;
+}
+
+.c-kohler-progressbar-inner {
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: var(--color-mending);
+  box-shadow : 0px 2px 2px -0.5px var(--color-mending), 0px -2px 2px -0.5px var(--color-mending);
+}
+
+.c-kohler-progressbar-inner--light {
+  opacity: 0.5;
+}
+
+.c-kohler-progressunlock-description--hover-area {
+  display: flex;
+  width: 100%;
+  height: 3rem;
+  position: absolute;
+  align-items: center;
+}
+
+.c-kohler-progressunlock-description {
+  width: 14rem;
+  font-size: 1rem;
+  color: var(--color-mending);
+  background-color: var(--color-mending-dark);
+  border: 0.1rem solid var(--color-mending);
+}
+
+.c-kohler-progressunlock-description--unlocked {
+  color: var(--color-mending);
+  background-color: var(--color-mending-light);
+}
+
+/* #endregion Kohler tab*/
